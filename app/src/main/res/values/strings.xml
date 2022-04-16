@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Ticket</string>
+    <string name="title_activity_participantdetails">participantdetails</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="app_name1">dropDownMenuExample</string>
+    <string-array name="eventArray">
+        <item>Concert</item>
+        <item>
+            Verve Events
+        </item>
+        <item>
+            JSS RUN
+        </item>
+
+    </string-array>
+</resources>
