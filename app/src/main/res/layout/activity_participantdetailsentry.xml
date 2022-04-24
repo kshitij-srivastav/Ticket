@@ -2,43 +2,42 @@
 <LinearLayout android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="30dp">
+
 
     <EditText
         android:id="@+id/nameedittxt"
-        android:layout_width="300dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:hint="Enter the Name"
-        android:layout_marginLeft="60dp"
-        >
+        android:hint="Enter the Name">
 
     </EditText>
 
     <EditText
-        android:layout_width="300dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:hint="Enter College name"
-        android:layout_marginLeft="60dp"
+        android:hint="Enter College Name"
+
         android:id="@+id/collegeedittxt">
 
     </EditText>
     <EditText
-        android:layout_width="300dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="60dp"
         android:layout_marginTop="20dp"
         android:hint="Enter Email Address"
         android:id="@+id/emailedittext">
 
     </EditText>
     <EditText
-        android:layout_width="300dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="60dp"
+
         android:layout_marginTop="20dp"
-        android:hint="Phone number"
+        android:hint="Phone Number"
         android:id="@+id/phonenumberedittxt">
 
     </EditText>
@@ -47,23 +46,23 @@
         android:layout_height="wrap_content"
         android:text="Select Event "
         android:textSize="22dp"
-        android:layout_marginHorizontal="60dp"
+
         android:layout_marginTop="10dp"
         android:textStyle="italic"
         android:id="@+id/eventtext">
 
     </TextView>
     <AutoCompleteTextView
-        android:layout_width="300dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="60dp"
+
         android:id="@+id/autocompletetextview">
 
     </AutoCompleteTextView>
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="150dp"
+        android:id="@+id/submitbtn"
         android:text="Submit"
         android:layout_marginTop="10dp"
         >
