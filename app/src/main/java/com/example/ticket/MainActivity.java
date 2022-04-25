@@ -9,7 +9,7 @@ import android.view.WindowManager;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    TextView t1;
+    TextView t1,t2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         getWindow().setFlags (WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         t1=findViewById(R.id.splashtext);
+        t2=findViewById(R.id.madeby);
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
@@ -27,6 +28,6 @@ public class MainActivity extends AppCompatActivity {
                 // close this activity
                 finish();
             }
-        }, 3000);
+        }, 2500);
     }
 }

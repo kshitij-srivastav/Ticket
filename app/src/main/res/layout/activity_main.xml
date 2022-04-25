@@ -3,7 +3,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingLeft="16dp"
-    android:paddingRight="16dp" >
+    android:paddingRight="16dp"
+    android:background="@color/black">
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/vervelogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp">
+
+    </ImageView>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -11,8 +20,26 @@
         android:textSize="25sp"
         android:layout_centerInParent="true"
         android:textStyle="bold|italic"
-        android:id="@+id/splashtext">
+        android:id="@+id/splashtext"
+        android:textColor="@color/white">
 
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/madeby"
+        android:layout_below="@id/splashtext"
+        android:layout_marginTop="280dp"
+        android:textColor="@color/white"
+        android:text="Developers \n
+Kshitij Srivastav\n
+Varun S Athreya"
+        android:textSize="17dp"
+
+        android:layout_alignParentRight="true"
+        android:textStyle="italic"
+        >
 
     </TextView>
 

@@ -3,7 +3,8 @@
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
-    android:padding="30dp">
+    android:padding="30dp"
+    android:background="@color/black">
 
 
     <EditText
@@ -11,7 +12,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:hint="Enter the Name">
+        android:hint="Enter the Name"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        >
 
     </EditText>
 
@@ -20,7 +24,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:hint="Enter College Name"
-
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
         android:id="@+id/collegeedittxt">
 
     </EditText>
@@ -29,13 +34,16 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:hint="Enter Email Address"
-        android:id="@+id/emailedittext">
+        android:id="@+id/emailedittext"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white">
 
     </EditText>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
         android:layout_marginTop="20dp"
         android:hint="Phone Number"
         android:id="@+id/phonenumberedittxt">
@@ -49,14 +57,17 @@
 
         android:layout_marginTop="10dp"
         android:textStyle="italic"
-        android:id="@+id/eventtext">
+        android:id="@+id/eventtext"
+        android:textColor="@color/white">
 
     </TextView>
     <AutoCompleteTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-        android:id="@+id/autocompletetextview">
+        android:id="@+id/autocompletetextview"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white">
 
     </AutoCompleteTextView>
     <Button
